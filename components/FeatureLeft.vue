@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-wrap flex-col-reverse sm:flex-row">
     <div class="w-full sm:w-1/2 p-6 mt-6">
-      <slot name="svg" />
+      <slot />
     </div>
     <div class="w-full sm:w-1/2 p-6 mt-6">
       <div class="align-middle">
@@ -9,8 +9,6 @@
         <p class="text-gray-600 mb-8">
           {{ content }}
           <br />
-          <br />Images from:
-          <a class="text-orange-500 underline" href="https://undraw.co/">undraw.co</a>
         </p>
       </div>
     </div>
@@ -19,16 +17,16 @@
 
 <script>
 export default {
-  name: 'FeatureLeft',
+  name: "FeatureLeft",
   props: {
     headline: {
       type: String,
-      required: false
+      required: false,
     },
     content: {
       type: String,
-      required: false
-    }
-  }
-}
+      required: false,
+    },
+  },
+};
 </script>

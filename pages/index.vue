@@ -2,7 +2,6 @@
   <NuxtLayout>
     <hero />
     <features />
-    <teasers />
     <prices />
     <call-to-action />
   </NuxtLayout>

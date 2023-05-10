@@ -1,41 +1,38 @@
 <template>
   <section class="bg-white border-b py-8">
     <div class="container max-w-5xl mx-auto m-8">
-      <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
-      >
-        Title
-      </h1>
+      <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Map Features</h1>
       <div class="w-full mb-4">
-        <div
-          class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-        ></div>
+        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <feature-right
-        headline="Lorem ipsum dolor sit amet"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."
+        headline="Live Run Statuses"
+        content="Experience the slopes in real-time with our live run statuses feature. Stay updated with the latest information on grooming, trail availability, and difficulty ratings. Know which runs have been freshly groomed for a pristine skiing experience. Check the open/closed status of trails to plan your routes accordingly. Discover runs suited to your skill level by exploring the dynamic difficulty ratings."
       >
-        <img src="~assets/img/travel-booking.svg?inline" alt slot="svg" />
+        <img src="~/assets/img/run-statuses.png" class="flex shadow rounded-md border object-cover" alt />
       </feature-right>
       <feature-left
-        headline="Lorem ipsum dolor sit amet"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."
+        headline="Run Filtering and Highlighting"
+        content="Refine your skiing experience with our run filtering and highlighting feature. Easily filter trails based on difficulty, slope type, and length to find your ideal run. Highlight your favorite runs for quick navigation and a personalized adventure. Discover new trails and maximize your time on the slopes with our intuitive filtering and highlighting tools. Elevate your ski experience with precision and enjoyment."
       >
-        <img src="~assets/img/connected-world.svg?inline" alt slot="svg" />
       </feature-left>
+
+      <feature-right headline="Your Content, Managed Your Way" content=""> </feature-right>
     </div>
   </section>
 </template>
 
 <script>
-import FeatureRight from '@/components/FeatureRight'
-import FeatureLeft from '@/components/FeatureLeft'
+import FeatureRight from "@/components/FeatureRight";
+import FeatureLeft from "@/components/FeatureLeft";
+
+import img from "@/assets/img/brand.png";
 
 export default {
-  name: 'Features',
+  name: "Features",
   components: {
-    'feature-right': FeatureRight,
-    'feature-left': FeatureLeft
-  }
-}
+    "feature-right": FeatureRight,
+    "feature-left": FeatureLeft,
+  },
+};
 </script>
