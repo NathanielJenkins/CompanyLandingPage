@@ -2,6 +2,7 @@
   <NuxtLayout>
     <hero />
     <features />
+    <map-swap />
     <prices />
     <call-to-action />
   </NuxtLayout>
@@ -13,6 +14,7 @@ import Features from "@/components/Features";
 import Teasers from "@/components/Teasers";
 import Prices from "@/components/Prices";
 import CallToAction from "@/components/CallToAction";
+import MapSwap from "@/components/MapSwap";
 
 export default {
   name: "LandingPage",
