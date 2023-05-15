@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-wrap">
-    <div class="w-5/6 sm:w-1/2 p-6">
+  <div class="flex flex-wrap sm:flex-row sm:order-last">
+    <div class="w-full sm:w-1/2 p-6">
       <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
         {{ headline }}
       </h3>
@@ -9,7 +9,7 @@
         <br />
       </p>
     </div>
-    <div class="w-full sm:w-1/2 p-6">
+    <div class="mx-auto w-5/6 sm:w-1/2 p-6  sm:mt-6 mt-0 mb-6 sm:mb-0 ">
       <slot class="" />
     </div>
   </div>
