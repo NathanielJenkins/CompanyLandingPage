@@ -7,7 +7,7 @@
       >
       <client-only placeholder="loading...">
         <ImgComparisonSlider
-          value="75"
+          value="60"
           tabindex="0"
           hover="true"
           class="slider-with-animated-handle rendered mt-8 rounded-lg shadow-lg"
@@ -26,12 +26,12 @@
 <style lang="postcss">
 .slider-with-animated-handle {
   --default-handle-width: 100px;
-  --default-handle-color: white;
+  --default-handle-color: DarkSlateGray;
   stroke-width: 5px;
 }
 
 .slider-with-animated-handle:hover .custom-animated-handle {
-  transform: scale(1.2);
+  --default-handle-width: 150;
 }
 </style>
 
