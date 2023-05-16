@@ -1,7 +1,7 @@
 <template>
   <div>
     <hero-content />
-    <div class="relative -mt-12 lg:-mt-18">
+    <div class="relative">
       <svg
         viewBox="0 0 1428 174"
         version="1.1"

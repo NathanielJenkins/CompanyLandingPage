@@ -13,7 +13,7 @@
           to="https://app.steepdeep.ski/"
           target="_blank"
           rel="noopener noreferrer"
-          class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-90 border-2 border-white"
+          class="mx-auto md:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-90 border-2 border-white"
         >
           See Live Demo
         </NuxtLink>
