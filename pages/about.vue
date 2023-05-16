@@ -1,6 +1,7 @@
 <template>
   <Nuxt>
     <svg
+      class="pt-20"
       viewBox="0 0 1428 174"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
