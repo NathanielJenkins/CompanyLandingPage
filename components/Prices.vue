@@ -5,7 +5,7 @@
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-      <div class="flex flex-col lg:flex-row justify-center items-center pt-12 my-12 lg:my-4">
+      <div class="flex flex-col lg:flex-row justify-center items-center lg:items-stretch pt-6 my-12 lg:my-4">
         <price
           class="m-2"
           name="Basic"

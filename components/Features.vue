@@ -6,25 +6,28 @@
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <feature-right
-        headline="Live Run Statuses"
+        headline="Live Run/Lift Statuses"
         content="Experience the slopes in real-time with our live run statuses feature. Stay updated with the latest information on grooming, trail availability, and difficulty ratings. Know which runs have been freshly groomed for a pristine skiing experience. Check the open/closed status of trails to plan your routes accordingly. Discover runs suited to your skill level by exploring the dynamic difficulty ratings."
       >
         <img src="~/assets/img/run-statuses.png" class="flex shadow-lg rounded-md border object-cover" alt />
       </feature-right>
       <feature-left
-        headline="Run Filtering and Highlighting"
+        headline="Seamless Run Filtering and Highlighting"
         content="Refine your skiing experience with our run filtering and highlighting feature. Easily filter trails based on difficulty, slope type, and length to find your ideal run. Highlight your favorite runs for quick navigation and a personalized adventure. Discover new trails and maximize your time on the slopes with our intuitive filtering and highlighting tools. Elevate your ski experience with precision and enjoyment."
       >
-      <div class="flex justify-center">
-        <img src="~/assets/img/destinations.svg" class="flex object-cover h-64" alt />
-      </div>
+        <div class="flex justify-center">
+          <img src="~/assets/img/destinations.svg" class="flex object-cover h-64" alt />
+        </div>
       </feature-left>
 
-      <feature-right headline="Your Content, Managed Your Way" content="Introducing our interactive ski map Content Management System (CMS) that puts you in control. With our user-friendly interface, internal users can easily access and manage their own content directly on the map. Empower your team with the ability to create and edit popups, amenities, and runs effortlessly. No need for intermediaries or technical expertise. With just a few clicks, internal users can update important information, such as operating hours, conditions, or run details, ensuring accurate and up-to-date content."> 
+      <feature-right
+        headline="Your Content, Managed Your Way"
+        content="Introducing our interactive ski map Content Management System (CMS) that puts you in control. With our user-friendly interface, internal users can easily access and manage their own content directly on the map. Empower your team with the ability to create and edit popups, amenities, and runs effortlessly. No need for intermediaries or technical expertise. With just a few clicks, internal users can update important information, such as operating hours, conditions, or run details, ensuring accurate and up-to-date content."
+      >
         <div class="flex justify-center">
           <img src="~/assets/img/content.svg" class="flex object-cover" alt />
         </div>
-    </feature-right>
+      </feature-right>
     </div>
   </section>
 </template>
