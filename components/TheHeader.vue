@@ -1,7 +1,7 @@
 <template>
   <nav :class="headerClassList" class="fixed w-full z-30 top-0">
-    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 h-20">
-      <div class="pl-4 flex items-center">
+    <div class="w-full container mt-0 mx-auto flex flex-wrap items-center justify-between">
+      <div class="pl-4 flex items-center py-4">
         <logo :isStickable="true" :isSticky="isSticky" />
       </div>
       <div class="block lg:hidden pr-4">
@@ -12,10 +12,9 @@
           </svg>
         </button>
       </div>
-
       <div
         :class="navContentClassList"
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 lg:bg-transparent text-black p-4 lg:p-0 z-20"
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
@@ -56,10 +55,10 @@ export default {
   },
   computed: {
     isSticky() {
-      return this.scrollY > 0;
+      return this.scrollY > 0 || this.isOpen;
     },
     headerClassList() {
-      return this.isSticky ? "bg-white shadow" : "";
+      return this.isSticky ? "bg-white shadow" : "bg-transparent";
     },
     navActionClassList() {
       return this.isSticky ? "gradient text-white" : "bg-white text-gray-800";

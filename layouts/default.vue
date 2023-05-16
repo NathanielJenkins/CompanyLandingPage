@@ -1,7 +1,7 @@
 <template>
   <div class="leading-normal tracking-normal text-white gradient">
     <TheHeader />
-    <div class="pt-20">
+    <div>
       <slot />
       <TheFooter />
     </div>
