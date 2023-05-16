@@ -9,15 +9,14 @@
           Discover Every Trail, Navigate Every Turn.
         </p>
 
-        <div class="flex md:w-auto w-full space-x-2 justify-center">
-          <!-- make this button a link -->
-          <button
-            onclick="window.open('https://app.steepdeep.ski/','_blank')"
-            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-          >
-            See Live Demo
-          </button>
-        </div>
+        <NuxtLink
+          to="https://app.steepdeep.ski/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-90 border-2 border-white"
+        >
+          See Live Demo
+        </NuxtLink>
       </div>
       <!--Right Col-->
       <div class="w-full md:w-3/5 pb-8 text-center flex flex-col justify-center">

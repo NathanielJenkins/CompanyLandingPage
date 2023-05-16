@@ -35,14 +35,20 @@
         <div class="max-w-sm">
           <img src="~/assets/img/contact.svg" class="flex object-cover" alt="contact" />
         </div>
-        <div class="mt-0 flex flex-col justify-center items-center">
-          <h1 class="my-2 text-5xl font-bold leading-tight text-gray-500">Contact Sales</h1>
-          <form name="contact" method="POST" data-netlify="true" class="form-container">
+        <div class="mt-0 flex flex-col justify-center">
+          <h1 class="mt-2 text-5xl font-bold leading-tight text-gray-500">Contact Sales</h1>
+          <div class="mb-8 text-lg text-left mx-auto w-full">
+            <span class="font-bold">Email: </span>
+            <span class="text-gray-500 underline"
+              ><a href="mailto:sales@steepdeep.ski" class="text-indigo-500">sales@steepdeep.ski</a>
+            </span>
+          </div>
+          <form name="contact" method="POST" data-netlify="true" class="form-container" action="/pages/success">
             <p>
-              <label>Your Name: <input type="text" name="name" class="input-field" /></label>
+              <label>Your Name: <input required type="text" name="name" class="input-field" /></label>
             </p>
             <p>
-              <label>Your Email: <input type="email" name="email" class="input-field" /></label>
+              <label>Your Email: <input required type="email" name="email" class="input-field" /></label>
             </p>
             <p></p>
             <p>

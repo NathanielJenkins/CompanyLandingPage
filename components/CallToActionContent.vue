@@ -5,13 +5,14 @@
       <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
     </div>
 
-    <h3 class="my-4 text-3xl leading-tight">Transform Your Guests' Skiing Experience</h3>
+    <h3 class="text-3xl leading-tight mt-4 mb-12">Transform Your Guests' Skiing Experience</h3>
 
-    <button
+    <NuxtLink
+      to="/contact"
       class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
     >
       Contact Sales
-    </button>
+    </NuxtLink>
   </section>
 </template>
 

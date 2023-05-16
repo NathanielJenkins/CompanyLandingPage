@@ -1,5 +1,5 @@
 <template>
-  <a :class="classList" class="no-underline hover:no-underline text-2xl lg:text-4xl" href="/">
+  <NuxtLink :class="classList" class="no-underline hover:no-underline text-2xl lg:text-4xl" to="/">
     <!--Icon from: http://www.potlabicons.com/ -->
     <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 694.000000 360.000000">
       <g transform="translate(0.000000,360.000000) scale(0.100000,-0.100000)" fill="inherit" stroke="none">
@@ -97,7 +97,7 @@ c19 -18 51 -46 70 -63 135 -116 190 -170 180 -173 -13 -4 -40 11 -260 156
         />
       </g></svg
     >&nbsp;<span class="font-semibold">Steep</span><span class="font-normal">Deep</span>
-  </a>
+  </NuxtLink>
 </template>
 
 <script>

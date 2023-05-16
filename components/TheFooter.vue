@@ -21,13 +21,17 @@
           <p class="uppercase text-gray-500 md:mb-6">Social</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500">Facebook</a>
+              <NuxtLink to="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500"
+                >Facebook</NuxtLink
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500">Linkedin</a>
+              <NuxtLink to="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500"
+                >Linkedin</NuxtLink
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500">Twitter</a>
+              <NuxtLink to="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500">Twitter</NuxtLink>
             </li>
           </ul>
         </div>
@@ -35,13 +39,17 @@
           <p class="uppercase text-gray-500 md:mb-6">Company</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="/about" class="no-underline hover:underline text-gray-800 hover:text-teal-500">About Us</a>
+              <NuxtLink to="/about" class="no-underline hover:underline text-gray-800 hover:text-teal-500"
+                >About Us</NuxtLink
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="/contact" class="no-underline hover:underline text-gray-800 hover:text-teal-500">Contact</a>
+              <NuxtLink to="/contact" class="no-underline hover:underline text-gray-800 hover:text-teal-500"
+                >Contact</NuxtLink
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500">Careers</a>
+              <NuxtLink to="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500">Careers</NuxtLink>
             </li>
           </ul>
         </div>

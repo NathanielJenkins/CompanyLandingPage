@@ -31,8 +31,8 @@
       </g>
     </svg>
     <section class="bg-white border-b text-gray-400 pt-8 pb-8">
-      <div class="w-5/6 flex flex-col item-center justify-center mx-auto space-y-2">
-        <div class="flex flex-col space-y-4 lg:flex-row lg:space-x-8 lg:items-start items-center">
+      <div class="w-5/6 flex flex-col item-center justify-center mx-auto space-y-2 max-w-6xl">
+        <div class="flex flex-col space-y-4 lg:flex-row lg:space-x-12 lg:items-start items-center">
           <div class="lg:w-5/6 w-full mt-0 lg:mt-24">
             <img class="shadow rounded-lg" src="~/assets/img/mountains.jpg" alt="" />
           </div>
