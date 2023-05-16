@@ -1,5 +1,5 @@
 <template>
-  <a :class="classList" class="no-underline hover:no-underline text-2xl lg:text-4xl" href="#">
+  <a :class="classList" class="no-underline hover:no-underline text-2xl lg:text-4xl" href="/">
     <!--Icon from: http://www.potlabicons.com/ -->
     <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 694.000000 360.000000">
       <g transform="translate(0.000000,360.000000) scale(0.100000,-0.100000)" fill="inherit" stroke="none">
@@ -119,7 +119,7 @@ export default {
       if (this.isStickable) {
         classList = this.isSticky ? "text-gray-800" : "text-white";
       } else {
-        classList = "text-orange-600";
+        classList = "compliment-color";
       }
       return classList;
     },

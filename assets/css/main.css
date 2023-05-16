@@ -6,3 +6,11 @@
   --primary-color: #7de4d9;
   --compliment-color: #147f94;
 }
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.compliment-color {
+  color: var(--compliment-color);
+}

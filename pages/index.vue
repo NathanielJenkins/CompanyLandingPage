@@ -1,11 +1,9 @@
 <template>
-  <NuxtLayout>
-    <hero />
-    <features />
-    <map-swap />
-    <prices />
-    <call-to-action />
-  </NuxtLayout>
+  <hero />
+  <features />
+  <map-swap />
+  <prices />
+  <call-to-action />
 </template>
 
 <script>

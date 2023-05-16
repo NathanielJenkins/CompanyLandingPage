@@ -1,21 +1,16 @@
 <template>
   <div class="leading-normal tracking-normal text-white gradient">
-    <the-header />
-    <slot />
-    <the-footer />
+    <TheHeader />
+    <div class="pt-20">
+      <slot />
+      <TheFooter />
+    </div>
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
 import TheHeader from "@/components/TheHeader.vue";
 import TheFooter from "@/components/TheFooter.vue";
-
-export default {
-  components: {
-    "the-header": TheHeader,
-    "the-footer": TheFooter,
-  },
-};
 </script>
 
 <style>
