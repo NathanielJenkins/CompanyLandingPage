@@ -43,7 +43,7 @@
               ><a href="mailto:sales@steepdeep.ski" class="text-indigo-500">sales@steepdeep.ski</a>
             </span>
           </div>
-          <form name="contact" method="POST" data-netlify="true" class="form-container" action="/pages/success">
+          <form name="contact" method="POST" netlify class="form-container">
             <p>
               <label>Your Name: <input required type="text" name="name" class="input-field" /></label>
             </p>
