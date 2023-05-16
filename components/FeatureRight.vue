@@ -9,7 +9,7 @@
         <br />
       </p>
     </div>
-    <div class="mx-auto w-5/6 sm:w-1/2 p-6  sm:mt-6 mt-0 mb-6 sm:mb-0 ">
+    <div class="mx-auto w-full sm:w-1/2 p-6 sm:mt-6 mt-0 mb-6 sm:mb-0">
       <slot class="" />
     </div>
   </div>

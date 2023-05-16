@@ -21,12 +21,13 @@
             <NuxtLink class="inline-block py-2 px-4 text-black" to="/about">About Us</NuxtLink>
           </li>
         </ul>
-        <button
+        <NuxtLink
+          to="/contact"
           :class="navActionClassList"
           class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
         >
           Contact
-        </button>
+        </NuxtLink>
       </div>
     </div>
     <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
