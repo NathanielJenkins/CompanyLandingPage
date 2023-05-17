@@ -33,7 +33,7 @@
     <section class="bg-white border-b text-gray-400 pt-8 pb-8">
       <div class="w-5/6 flex flex-col item-center justify-center mx-auto space-y-2 max-w-6xl">
         <div class="flex flex-col space-y-4 lg:flex-row lg:space-x-12 lg:items-start items-center">
-          <div class="lg:w-5/6 w-full mt-0 lg:mt-24">
+          <div class="lg:w-9/11 w-full mt-0 lg:mt-24">
             <img class="shadow rounded-lg" src="~/assets/img/mountains.jpg" alt="" />
           </div>
           <div>
@@ -43,41 +43,28 @@
               At SteepDeep, we are passionate about bringing the exhilarating world of skiing right to your fingertips.
               We specialize in crafting interactive ski maps that take your mountain experience to new heights.
             </p>
+            <br />
             <p>
-              Our team of dedicated experts understands the thrill and joy that comes with hitting the slopes. That's
-              why we have poured our expertise and creativity into developing cutting-edge interactive ski maps that
-              revolutionize the way you navigate and explore the mountain.
+              We understands the thrill and joy that comes with hitting the slopes. Nestled in the heart of the majestic
+              Canadian Rockies. We are passionate about skiing and everything this remarkable region has to offer. Our
+              deep appreciation for the sport and rich mountain culture drives us to create an unparalleled experience
+              for skiers of all levels we That's why we have poured our expertise and creativity into developing
+              cutting-edge interactive ski maps that revolutionize the way you navigate and explore the mountain.
             </p>
+            <br />
             <p>
-              With our interactive ski maps, you can discover every trail, uncover hidden gems, and embark on
-              unforgettable adventures. Our user-friendly interface provides real-time information about trail
-              difficulty, elevation, and nearby attractions, ensuring that you have all the details you need for an
-              incredible skiing experience.
+              What began as a humble side project aimed at revolutionizing the map experience has blossomed into
+              something truly unique. Our passion for innovation and enhancing the way skiers navigate the slopes has
+              driven us to create something that truely elevates your guests experience.
             </p>
+            <br />
             <p>
-              Navigate the mountain with confidence as our interactive ski maps guide you to the best runs, lifts, and
-              facilities. Whether you're a beginner seeking gentle slopes or an expert craving challenging terrain, our
-              maps cater to skiers of all levels, helping you find the perfect routes that suit your preferences.
+              At the core of our interactive ski map is a small and dedicated team that is passionate about skiing and
+              delivering an exceptional experience. With a hands-on approach, we pour our expertise and love for the
+              sport into every detail of your trail map.
             </p>
-            <p>
-              We are committed to delivering seamless, intuitive experiences that enhance your skiing adventure. Our
-              focus is on providing you with essential information and a visually appealing interface that is easy to
-              use. While we do not track individual progress, our maps offer a comprehensive overview of the mountain,
-              allowing you to plan your day and make the most of your time on the slopes.
-            </p>
-            <p>
-              At SteepDeep, we are driven by a commitment to excellence and innovation. We continuously strive to
-              incorporate the latest technologies and features to ensure that our ski maps offer the most comprehensive
-              and immersive experience possible.
-            </p>
-            <p>
-              Join us on this thrilling journey as we transform the way you ski. Explore the possibilities with
-              SteepDeep and unlock a world of excitement, discovery, and pure skiing bliss.
-            </p>
-            <h3>
-              Experience the mountains like never before. Discover SteepDeep - your ultimate companion for interactive
-              ski maps.
-            </h3>
+            <br />
+            <h3 class="text-xl font-thin">Remember, the mountains are always calling.</h3>
           </div>
         </div>
       </div>

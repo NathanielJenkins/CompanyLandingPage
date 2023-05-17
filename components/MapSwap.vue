@@ -16,8 +16,8 @@
           class="slider-with-animated-handle rendered mt-8 rounded-lg shadow-lg m-2"
         >
           <!-- eslint-disable -->
-          <img slot="first" style="width: 100%" src="~/assets/img/swap-real.min.png" />
-          <img slot="second" style="width: 100%" src="~/assets/img/swap-marketing.min.png" />
+          <img slot="first" style="width: 100%" src="~/assets/img/swap-real.png" />
+          <img slot="second" style="width: 100%" src="~/assets/img/swap-marketing.png" />
 
           <!-- eslint-enable -->
         </ImgComparisonSlider>

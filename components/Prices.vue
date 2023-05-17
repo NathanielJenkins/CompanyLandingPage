@@ -37,9 +37,9 @@ export default {
   name: "Prices",
   data() {
     return {
-      listBasic: ["Custum Static Content (Runs, Lifts, Amentities)", "Static Popup Content", "In Map Branded Content"],
+      listBasic: ["Custom Static Content (Runs, Lifts, Amenities)", "Static Popup Content", "In Map Branded Content"],
       listStandard: [
-        "Custum Static Content (Runs, Lifts, Amentities)",
+        "Custom Static Content (Runs, Lifts, Amenities)",
         "Popup Content",
         "Live Run/Lift Statuses",
         "Real and Marketed Map Swapping",
@@ -47,11 +47,11 @@ export default {
         "Content Management System (CMS) Access",
       ],
       listPro: [
-        "Custum Static Content (Runs, Lifts, Amentities)",
+        "Custom Static Content (Runs, Lifts, Amenities)",
         "Custom Popup Content",
         "Live Run/Lift Statuses + Additional Optional Data",
         "Real and Marketed Map Swapping",
-        "In Map Branded Content",
+        "Extended In Map Branded Content",
         "Content Management System (CMS) Access",
         "Custom Legend Design",
         "Additional Custom Map Features + Interactions",

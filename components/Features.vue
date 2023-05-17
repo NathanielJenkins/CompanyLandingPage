@@ -7,13 +7,13 @@
       </div>
       <feature-right
         headline="Live Run/Lift Statuses"
-        content="Experience the slopes in real-time with our live run statuses feature. Stay updated with the latest information on grooming, trail availability, and difficulty ratings. Know which runs have been freshly groomed for a pristine skiing experience. Check the open/closed status of trails to plan your routes accordingly. Discover runs suited to your skill level by exploring the dynamic difficulty ratings."
+        content="Experience the slopes in real-time with live run statuses. Stay updated with the latest information on grooming, trail availability, and difficulty ratings. Know which runs have been freshly groomed for a pristine skiing experience. Check the open/closed status of trails to plan your routes accordingly. Discover runs suited to your skill level by exploring the dynamic difficulty ratings."
       >
         <img src="~/assets/img/run-statuses.png" class="flex shadow-lg rounded-md border object-cover" alt />
       </feature-right>
       <feature-left
         headline="Seamless Run Filtering and Highlighting"
-        content="Refine your skiing experience with our run filtering and highlighting feature. Easily filter trails based on difficulty, slope type, and length to find your ideal run. Highlight your favorite runs for quick navigation and a personalized adventure. Discover new trails and maximize your time on the slopes with our intuitive filtering and highlighting tools. Elevate your ski experience with precision and enjoyment."
+        content="Refine your skiing experience with filtering and highlighting. Easily filter trails based on difficulty and grooming status to find your ideal run. Highlight runs by difficulty or find runs servicable runs by lifts to easily shape your day. Elevate your ski experience with precision and enjoyment!"
       >
         <div class="flex justify-center">
           <img src="~/assets/img/destinations.svg" class="flex object-cover h-64" alt />
@@ -22,7 +22,7 @@
 
       <feature-right
         headline="Your Content, Managed Your Way"
-        content="Introducing our interactive ski map Content Management System (CMS) that puts you in control. With our user-friendly interface, internal users can easily access and manage their own content directly on the map. Empower your team with the ability to create and edit popups, amenities, and runs effortlessly. No need for intermediaries or technical expertise. With just a few clicks, internal users can update important information, such as operating hours, conditions, or run details, ensuring accurate and up-to-date content."
+        content="Introducing our interactive ski map Content Management System (CMS) that puts you in control. With our user-friendly interface, internal users can easily access and manage their own content directly on the map. Empower your team with the ability to create and edit map features like: amenities, runs, lifts and areas effortlessly. No need for intermediaries or technical expertise."
       >
         <div class="flex justify-center">
           <img src="~/assets/img/content.svg" class="flex object-cover" alt />
