@@ -23,7 +23,7 @@
 
       <feature-right
         headline="Find Your Friends"
-        content="Share your location with friends easily to easily stay connected while exploring mountain terrain. Say goodbye to confusion and missed connections, and embrace the joy of seamless meetups. Conquer the mountain together!"
+        content="Share your location with friends to easily stay connected while exploring mountain terrain. Say goodbye to confusion and missed connections, and embrace the joy of seamless meetups. Conquer the mountain together!"
       >
       <div class="flex justify-center">
         <img src="~/assets/img/friends.svg" class="flex h-64" alt />
