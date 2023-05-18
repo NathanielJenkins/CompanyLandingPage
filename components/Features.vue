@@ -14,7 +14,7 @@
       <feature-left
         headline="Run Filtering and Highlighting"
         content="
-        Refine your skiing experience with filtering and highlighting. Effortlessly customize your adventure by filtering trails based on based on difficulty and grooming status to find your ideal run. Take it a step further and highlight runs by difficulty or find runs serviceable runs by lifts to easily shape your day. Elevate your ski experience with precision and enjoyment!"
+        Refine your skiing experience with filtering and highlighting. Effortlessly customize your adventure by filtering trails based on difficulty and grooming status to find your ideal run. Take it a step further and highlight runs by difficulty or find serviceable runs by lift to easily shape your day. Elevate your ski experience with precision and enjoyment!"
       >
         <div class="flex justify-center">
           <img src="~/assets/img/filtering.svg" class="flex h-64" alt />
