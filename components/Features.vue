@@ -22,22 +22,22 @@
       </feature-left>
 
       <feature-right
-        headline="Your Content, Managed Your Way"
-        content="Introducing our interactive ski map Content Management System (CMS) that puts you in control. With our user-friendly interface, internal users can easily access and manage their own content directly on the map. Empower your team with the ability to create and edit map features like: amenities, runs, lifts and areas effortlessly. No need for intermediaries or technical expertise."
-      >
-        <div class="flex justify-center">
-          <img src="~/assets/img/content.svg" class="flex object-cover h-64" alt />
-        </div>
-      </feature-right>
-
-      <feature-left
         headline="Find Your Friends"
         content="Share your location with friends easily to easily stay connected while exploring mountain terrain. Say goodbye to confusion and missed connections, and embrace the joy of seamless meetups. Conquer the mountain together!"
       >
       <div class="flex justify-center">
         <img src="~/assets/img/friends.svg" class="flex object-cover h-64" alt />
       </div>
+      </feature-right>
+      <feature-left
+        headline="Your Content, Managed Your Way"
+        content="Introducing our interactive ski map Content Management System (CMS) that puts you in control. With our user-friendly interface, internal users can easily access and manage their own content directly on the map. Empower your team with the ability to create and edit map features like: amenities, runs, lifts and areas effortlessly. No need for intermediaries or technical expertise."
+      >
+        <div class="flex justify-center">
+          <img src="~/assets/img/content.svg" class="flex object-cover h-64" alt />
+        </div>
       </feature-left>
+
 
       <feature-right headline="Showcase your Amenities" content="Explore the vast array of mountain amenities at your fingertips. Experience the convenience and effortlessly explore the mountain amenities, such as restaurants and services, enhancing your guests skiing journey."> 
         <div class="flex justify-center">
