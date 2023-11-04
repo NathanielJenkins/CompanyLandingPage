@@ -6,11 +6,19 @@
 </head>
 
 <body {{ BODY_ATTRS }}>
-  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-    <input type="hidden" name="form-name" value="contact" />
-    <input type="text" name="name" />
-    <input type="radio" name="email" />
-    <textarea name="message"></textarea>
+  <form class="form-container" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field"
+    hidden>
+    <input type="hidden" id="name" name="form-name" value="contact" />
+
+    <label for="name"> Your Name: </label>
+    <input required id="name" type="text" name="user-name" class="input-field" />
+
+    <label for="email"> Your Email:</label>
+    <input required id="email" type="email" name="user-email" class="input-field" />
+
+    <label for="message">Message: </label>
+    <textarea id="message" name="user-message" class="input-field"></textarea>
+    <button type="submit" class="form-button gradient">Send</button>
   </form>
   {{ APP }}
 </body>
