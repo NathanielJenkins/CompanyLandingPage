@@ -50,20 +50,17 @@
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
-            <input type="hidden" name="form-name" value="contact" />
-            <p>
-              <label>Your Name: <input required type="text" name="name" class="input-field" /></label>
-            </p>
-            <p>
-              <label>Your Email: <input required type="email" name="email" class="input-field" /></label>
-            </p>
-            <p></p>
-            <p>
-              <label>Message: <textarea name="message" class="input-field"></textarea></label>
-            </p>
-            <p>
-              <button type="submit" class="form-button gradient">Send</button>
-            </p>
+            <input type="hidden" id="name" name="form-name" value="contact" />
+
+            <label for="name"> Your Name: </label>
+            <input required id="name" type="text" name="user-name" class="input-field" />
+
+            <label for="email"> Your Email:</label>
+            <input required id="email" type="email" name="user-email" class="input-field" />
+
+            <label for="message">Message: </label>
+            <textarea id="message" name="user-message" class="input-field"></textarea>
+            <button type="submit" class="form-button gradient">Send</button>
           </form>
         </div>
       </div>
@@ -73,15 +70,15 @@
 
 <style lang="postcss" scoped>
 .form-container {
-  @apply max-w-md space-y-4;
+  @apply max-w-md;
 }
 
 .input-field {
-  @apply border border-gray-300 rounded-md px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500;
+  @apply border border-gray-300 rounded-md px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2;
 }
 
 .form-label {
-  @apply block text-gray-700 text-sm font-bold mb-2;
+  @apply block text-gray-700 text-sm font-bold;
 }
 
 .form-button {
