@@ -23,5 +23,11 @@ export default {
     prices: Prices,
     "call-to-action": CallToAction,
   },
+  setup(props, context) {
+    useSeoMeta({
+      title: "SteepDeep | Home",
+      description: "Interactive Digital Ski Maps",
+    });
+  },
 };
 </script>

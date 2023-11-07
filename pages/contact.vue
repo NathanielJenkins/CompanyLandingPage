@@ -64,6 +64,13 @@
   </Nuxt>
 </template>
 
+<script lang="ts" setup>
+useSeoMeta({
+  title: "SteepDeep | Contact",
+  description: "Interactive Digital Ski Maps contact page. Contact us for more information.",
+});
+</script>
+
 <style lang="postcss" scoped>
 .form-container {
   @apply max-w-md;

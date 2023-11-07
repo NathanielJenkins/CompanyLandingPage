@@ -12,4 +12,5 @@ export default defineNuxtConfig({
       gtagId: "G-JJB9L26BE5",
     },
   },
+  modules: ["@nuxt/image", "@nuxtjs/sitemap"],
 });
