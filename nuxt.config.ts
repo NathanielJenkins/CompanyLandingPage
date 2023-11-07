@@ -10,7 +10,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       gtagId: "G-JJB9L26BE5",
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || "https://steepdeep.ski",
     },
   },
-  modules: ["@nuxt/image", "@nuxtjs/sitemap"],
+  modules: ["@nuxt/image", "nuxt-simple-sitemap"],
 });
