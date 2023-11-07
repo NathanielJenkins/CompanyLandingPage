@@ -43,14 +43,9 @@
               ><a href="mailto:sales@steepdeep.ski" class="text-indigo-500">sales@steepdeep.ski</a>
             </span>
           </div>
-          <form
-            class="form-container"
-            name="contact"
-            method="POST"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-          >
-            <input type="hidden" id="name" name="form-name" value="contact" />
+          <Script src="https://web3forms.com/client/script.js" async defer></Script>
+          <form class="form-container" name="contact" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="f66627c1-2a2c-4de1-a63d-41dcf238fc20" />
 
             <label for="name"> Your Name: </label>
             <input required id="name" type="text" name="user-name" class="input-field" />
@@ -60,6 +55,7 @@
 
             <label for="message">Message: </label>
             <textarea id="message" name="user-message" class="input-field"></textarea>
+            <div class="h-captcha" data-captcha="true"></div>
             <button type="submit" class="form-button gradient">Send</button>
           </form>
         </div>
