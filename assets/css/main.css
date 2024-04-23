@@ -14,3 +14,15 @@
 .compliment-color {
   color: var(--compliment-color);
 }
+
+.bg-primary-color {
+  background-color: var(--primary-color);
+}
+
+.bg-compliment-color {
+  background-color: var(--compliment-color);
+}
+
+.text-primary-color {
+  color: var(--primary-color);
+}

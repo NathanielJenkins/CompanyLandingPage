@@ -16,9 +16,13 @@
         :class="navContentClassList"
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 lg:bg-transparent text-black p-4 lg:p-0 z-20"
       >
-        <ul class="list-reset lg:flex justify-end flex-1 items-center">
+        <ul class="list-reset lg:flex justify-end flex-1 items-center relative">
           <li class="mr-3">
             <NuxtLink class="inline-block py-2 px-4 text-black" to="/about">About Us</NuxtLink>
+          </li>
+
+          <li class="mr-3">
+            <NuxtLink class="inline-block py-2 px-4 text-black" to="/projects">Our Work</NuxtLink>
           </li>
         </ul>
         <div
@@ -45,12 +49,13 @@ import Logo from "@/components/Logo";
 export default {
   name: "TheHeader",
   components: {
-    logo: Logo,
+    logo: Logo
   },
   data() {
     return {
       scrollY: 0,
       isOpen: false,
+      open: false
     };
   },
   computed: {
@@ -69,7 +74,7 @@ export default {
         classList += ` hidden`;
       }
       return classList;
-    },
+    }
   },
   methods: {
     onClick() {
@@ -80,7 +85,7 @@ export default {
     },
     onToggleClick() {
       this.isOpen = !this.isOpen;
-    },
+    }
   },
   mounted() {
     this.scrollY = window.scrollY;
@@ -90,6 +95,6 @@ export default {
   beforeDestroy() {
     document.removeEventListener("click", this.onClick, true);
     document.removeEventListener("scroll", this.onScroll, true);
-  },
+  }
 };
 </script>

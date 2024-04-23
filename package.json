@@ -20,6 +20,7 @@
     "@img-comparison-slider/vue": "^8.0.0",
     "@nuxt/image": "^1.0.0",
     "@nuxt/types": "^2.17.2",
+    "@splidejs/vue-splide": "^0.6.12",
     "vue-gtag": "^2.0.1"
   }
 }

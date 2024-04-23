@@ -8,30 +8,15 @@
 
         <div class="flex-1">
           <p class="uppercase text-gray-500 md:mb-6">Links</p>
-          <ul class="list-reset mb-6">
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500">Help</a>
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500">Support</a>
-            </li>
-          </ul>
         </div>
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Social</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <NuxtLink to="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500"
-                >Facebook</NuxtLink
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <NuxtLink to="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500"
+              <NuxtLink
+                to="https://www.linkedin.com/company/steepdeep?originalSubdomain=ca"
+                class="no-underline hover:underline text-gray-800 hover:text-teal-500"
                 >Linkedin</NuxtLink
               >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <NuxtLink to="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500">Twitter</NuxtLink>
             </li>
           </ul>
         </div>
@@ -42,14 +27,6 @@
               <NuxtLink to="/about" class="no-underline hover:underline text-gray-800 hover:text-teal-500"
                 >About Us</NuxtLink
               >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <NuxtLink to="/contact" class="no-underline hover:underline text-gray-800 hover:text-teal-500"
-                >Contact</NuxtLink
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <NuxtLink to="#" class="no-underline hover:underline text-gray-800 hover:text-teal-500">Careers</NuxtLink>
             </li>
           </ul>
         </div>
@@ -64,7 +41,7 @@ import Logo from "@/components/Logo";
 export default {
   name: "TheFooter",
   components: {
-    logo: Logo,
-  },
+    logo: Logo
+  }
 };
 </script>
