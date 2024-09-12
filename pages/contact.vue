@@ -67,11 +67,11 @@
 <script lang="ts" setup>
 useSeoMeta({
   title: "SteepDeep | Contact",
-  description: "Interactive Digital Ski Maps contact page. Contact us for more information.",
+  description: "Interactive Digital Ski Maps contact page. Contact us for more information."
 });
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 .form-container {
   @apply max-w-md;
 }
