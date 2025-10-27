@@ -10,7 +10,7 @@
         </p>
 
         <NuxtLink
-          to="https://app.steepdeep.ski/"
+          to="https://app.steepdeep.ski/?mapId=real_map&mountainId=bDB19SdFm1UyHbHUP9qY"
           target="_blank"
           rel="noopener noreferrer"
           class="mx-auto md:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-90 border-2 border-white"
@@ -29,6 +29,6 @@
 
 <script>
 export default {
-  name: "HeroContent",
+  name: "HeroContent"
 };
 </script>
