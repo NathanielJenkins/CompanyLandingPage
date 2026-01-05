@@ -75,6 +75,6 @@
 <script lang="ts" setup>
 useSeoMeta({
   title: "SteepDeep | About Us",
-  description: "Interactive Digital Ski Maps contact page. Learn more about the company",
+  description: "Interactive Digital Ski Maps contact page. Learn more about the company"
 });
 </script>
